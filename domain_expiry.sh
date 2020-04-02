@@ -1,10 +1,10 @@
 #!/bin/bash
+# Author: Yashar Nesabian (yasharne)
 
 DOMAINS="snapp.ir"
 WHOIS_URL="whois.nic.ir"
 # One month
-# EXPIRY_ALERT=2592000
-EXPIRY_ALERT=30240000
+EXPIRY_ALERT=2592000
 
 for d in $DOMAINS 
 do
